@@ -4,12 +4,59 @@ body {
     background-color: #fff;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-address {
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
 }
 
 .header-logo {
@@ -20,6 +67,7 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .header-logo-color {
@@ -36,10 +84,6 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
-}
-
-.header-address {
-        font-style: normal;
 }
 
 .header-address-link {
@@ -65,6 +109,15 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    display: block;
+    margin: 0 auto 48px auto;
+
+}
+
+.title-flex {
+    display: flex;
+    justify-content: center;
 }
 
 .title-order-button {
@@ -75,11 +128,49 @@ font-weight: 700;
         color: #fff;
         cursor: pointer;
         background-color: #4d5ae5;
+        min-width: 169px;
+        padding: 16px 32px;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 4px;
 }
+
+
 
 .title-order-button:hover,
 .title-order-button:focus {
     background-color: #404bbf;;
+}
+
+.advantages-hidden-title {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+.advantages-container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.advantages-flex {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.advantages-flex li {
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-titles {
@@ -112,6 +203,7 @@ font-weight: 700;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin: 0 auto;
 }
 
 .team-name {

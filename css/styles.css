@@ -53,6 +53,7 @@ a {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-address {
@@ -71,7 +72,6 @@ a {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
-        padding: 24px 0;
 }
 
 .header-logo-color {
@@ -196,22 +196,19 @@ font-weight: 700;
     background-color: #f4f4fd;
 }
 
-.team-list {
-    background-color: #fff;
-}
-
 .team-flex {
     display: flex;
     gap: 24px;
     width: 1158px;
-     padding-left: 15px;
+    padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     padding-top: 0;
 }
 
 .team-list {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: #fff;
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -223,10 +220,6 @@ font-weight: 700;
 .team-flex .team-name {
     margin-bottom: 8px;
 }
-
-.team-container {
-
-    }
 
 .team-title {
     font-weight: 700;

@@ -200,9 +200,6 @@ font-weight: 700;
 .team-flex {
     display: flex;
     gap: 24px;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
     padding-top: 0;
 }

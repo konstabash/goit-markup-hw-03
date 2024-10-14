@@ -47,7 +47,7 @@ a {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .header-menu-list {
@@ -71,6 +71,7 @@ a {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
+        padding: 24px 0;
 }
 
 .header-logo-color {
@@ -169,7 +170,7 @@ font-weight: 700;
     
 }
 
-.advantages-flex .li {
+.advantages-flex .advantages-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -209,7 +210,7 @@ font-weight: 700;
     padding-top: 0;
 }
 
-.team-flex .team-list {
+.team-list {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -278,7 +279,7 @@ font-weight: 700;
     margin-top: 0;
 }
 
-.portfolio-flex li {
+.portfolio-list {
     border: 1px solid #e7e9fc;
     border-top: none;
     flex-basis: calc((100% - 48px) / 3);
